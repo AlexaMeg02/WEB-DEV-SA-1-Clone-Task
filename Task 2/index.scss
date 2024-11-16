@@ -1,0 +1,538 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Teko:wght@300..700&display=swap');
+
+$f1:"Teko";
+$f2:"Lato";
+$hr1:2em;
+$hr2:3em;
+$fs:1.5em;
+$cs:900px;
+
+body{
+    justify-content: center;
+    font-family: $f2;
+    border: 1px solid #000;
+    margin:0;
+    background-color: #231651;
+}
+
+//============ navbar ==============
+.nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    box-shadow:0px 10px;
+    background-color: #070410;
+    color: aliceblue;
+    p{
+        margin:16px;
+        font-family: $f1;
+        color: aliceblue;
+    }
+}
+
+.nav-logo{
+    font-size: $hr2;
+    padding:0;
+}
+
+.nav-menu{
+    ul {
+        justify-content: center;
+        display: flex;
+    } 
+    li{
+        list-style: none;
+        margin: 0 16px;
+    }
+    a{
+        color:aliceblue;
+        text-decoration: none;
+    }
+    
+}
+.nav-search{
+    button{
+        font-family: $f1;
+        font-size: $hr1;
+        border-radius: 10px;
+        padding: 0 10px;  
+        border: 1px solid #000;
+        margin: 10px;
+        background-color: #fff;
+    }
+}
+
+.movies{
+    max-width: 900px;
+    margin: auto;
+}
+//=====================================
+
+h2{
+    font-family: $f1;
+    color: rgb(0, 0, 0);
+}
+P{
+    color: rgb(0, 0, 0);
+    font-family: $f2;
+}
+button{
+    font-family: $f1;   
+    background-color: #ffffff;
+}
+
+//============ movie 1 ===============
+
+.movie{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    margin: 48px;
+    .mp1{   
+        width: 900px;
+        
+    }   
+    img{
+        width: 900px;
+        height:500px; 
+    }
+    h2{
+        text-align: left;
+        margin-top: 0;
+    }
+    p{
+        text-align: left;
+    }
+    button{
+        padding:10px;
+        font-size: 3em;
+        border-radius: 20px;
+        border:1px solid #000;
+        margin: 0 16px;
+        padding: 16px 48px;
+    }
+}
+
+.mp1{
+    box-shadow: 10px 10px #EEF36A;
+    background-color: #4DCCBD;
+}
+.flex{
+    display: flex;
+    margin: 16px;
+}
+
+//============== movie 2 =================
+
+.movie2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   img{
+        width: 410px;
+   } 
+   h2{
+    display: flex;
+    font-family: $f1;
+    justify-content: left;
+    text-align: left;
+    margin: 16px;
+   }
+   p{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    margin: 16px;
+    padding-bottom: 16px;
+   }
+   button{
+    font-size: 3em;
+    border-radius: 20px;
+    border:1px solid #000;
+    margin: 16px;
+    padding: 16px 30px;
+   }
+}
+
+.mov2{
+    background-color: #4DCCBD;
+    width: 410px;
+    margin:0 16px;
+    box-shadow: 10px 10px #EEF36A;
+}
+
+// ================= movie 3==================
+
+.movie3{
+    display: flex;
+    text-align: center;
+    margin: 0 16px;
+
+   img{
+        width: 410px;
+   } 
+   h2{
+    text-align: left;
+    margin: 16px;
+    font-size: 1.5em;
+   }
+   p{
+    text-align: left;
+    margin: 16px;
+    padding-bottom: 16px;
+    margin-bottom: 48px;
+   }
+   button{
+    font-size: 3em;
+    border-radius: 20px;
+    border:1px solid #000;
+    margin-top: 16px;
+    padding:16px 30px;
+   }
+}
+
+
+.mov3{  
+    width: 410px;
+    margin: 0 48px;
+    margin-right: 0;
+    box-shadow: 10px 10px #EEF36A      ;
+    background-color: #4DCCBD;
+}
+//============= movie 4 ======================
+
+
+.movie4{
+    display: flex;
+    margin: 48px 0;
+    img{
+        width: 410px;
+    }
+    .content4{
+        margin:16px;
+    }
+    button{
+        margin: 2.5em 16px;
+        width: 95%;
+        font-size: 3em;
+        border-radius: 20px;
+        border: 1px solid #000;
+    }
+}
+
+.mov4{
+    display: flex;
+    width: 900px;
+    height: 410px;
+    box-shadow: 10px 10px #EEF36A;
+    background-color: #4DCCBD;
+    .flex2 {
+        padding: 16px;
+        flex-direction: column;
+    }
+}
+//========== movie 5 ======================
+
+.movie5{
+    display: flex;
+    margin: 48px 0;
+    img{
+        width: 410px;
+    }
+    .content5{
+        margin: 16px;
+    }
+    button{
+        margin: 3em 16px;
+        width: 95%;
+        font-size: 3em;
+        border-radius: 20px;
+        border: 1px solid #000;
+    }
+}
+
+.mov5{
+    display: flex;
+    width: 900px;
+    height: 410px;
+    box-shadow: 10px 10px #EEF36A;
+    background-color: #4DCCBD;
+    .flex4 {
+        padding: 16px;
+        flex-direction: column;
+    }
+}
+
+//============ movie 6 =======================
+
+.movie6{
+    display: flex;
+    margin: 48px 0;
+    img{
+        width: 410px;
+    }
+    .content6{
+        margin:16px;
+    }
+    button{
+        margin: 2.3em 16px;
+        width: 95%;
+        font-size: 3em;
+        border-radius: 20px;
+        border: 1px solid #000;
+    }
+}
+
+.mov6{
+    display: flex;
+    width: 900px;
+    height: 410px;
+    box-shadow: 10px 10px #EEF36A;
+    background-color: #4DCCBD;
+    .flex5 {
+        padding: 16px;
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//============================================  
+@media only screen and (min-width:720px) and (max-width:1024px){
+
+    //============ movie 1 ===============
+    
+    .movie{
+        display: flex;
+        justify-content: left;
+        text-align: left;
+        padding: 0;
+        margin: 32px 0;
+        img{
+        width: 410px;
+        height: auto;
+        }
+    }
+    .mp1{
+        box-shadow: 0 0 #eef36a00;
+        background-color: #4dccbd00;
+
+        
+    }
+    .flex{
+        background-color: #4DCCBD;
+        width: 410px;
+        margin:0 0;
+        box-shadow: 10px 10px #EEF36A;
+    }
+}
+
+
+
+@media only screen and (min-width:360px) and (max-width:720px){
+
+    //============ movie 1 ===============
+
+    .movie{
+        display: flex;
+        justify-content: left;
+        margin: 32px 0;
+        img{
+        width: 720px;
+        height: auto;
+        }
+        h2{
+            font-size: 3em;
+            margin: 0 16px;
+        }
+        p{
+            font-size:2em;
+            margin: 0 16px;
+        }
+        button{
+            font-size:3em;
+            padding: 0 32px;
+            margin: 32px;
+        }
+        .mp1{
+            box-shadow: 0 0 #eef36a00;
+            background-color: #4dccbd00;
+        }
+        .flex{
+            display: flex;
+            flex-direction: column;
+            background-color: #4DCCBD;
+            width: 720px;
+            height: 720px;
+            margin: 0;
+        }
+    }
+
+    //=====movie2=======
+
+    .movie2{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        img{
+            width: 720px;
+            height: auto;
+        }
+        h2{
+            font-size: 3em;
+            margin: 0 16px;
+        }
+        p{
+            font-size:2em;
+            margin: 0 16px;
+        }
+        button{
+            font-size:3em;
+            padding:16px 48px;
+        }
+        .mov2{
+            background-color: #4DCCBD;
+            width: 720px;
+            margin:32px 0;
+            box-shadow: none;
+        }
+    }
+    //======= movie3 =======
+
+    .movie3{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        img{
+            width: 720px;
+            height: auto;
+        }
+        h2{
+            font-size: 3em;
+            margin: 0 16px;
+        }
+        p{
+            font-size:2em;
+            margin: 0 16px;
+        }
+       button{
+        font-size: 3em;
+        border-radius: 20px;
+        border:1px solid #000;
+        margin-top: 16px;
+        padding:16px 30px;
+       }
+        .mov3{
+            background-color: #4DCCBD;
+            width: 720px;
+            margin:32px 0;
+            box-shadow: none;
+        }
+    }
+
+    //===movie 4====
+    .movie4{
+        display: flex;
+        text-align: left;
+        margin: 0 0;
+        box-shadow: none;
+       img{
+            width: 100%;
+            box-shadow: none;
+       } 
+       h2{
+        text-align: left;
+        margin: 16px;
+        font-size: 3em;
+       }
+       p{
+        text-align: left;
+        margin: 16px;
+        font-size: 2em;
+        padding-bottom: 16px;
+        margin-bottom: 48px;
+       }
+       button{
+        font-size: 3em;
+        border-radius: 20px;
+        border:1px solid #000;
+        margin-top: 16px;
+        padding:16px 30px;
+       }
+    }
+    .mov4{
+        display: flex;
+        flex-direction: column;
+        width: 900px;
+        height: 410px;
+        
+        .flex3 {
+            padding: 16px;
+            flex-direction: column;
+            background-color: #4DCCBD;
+            box-shadow: none;
+        }
+    }
+    
+    .movie5{
+        display: flex;
+        text-align: left;
+        margin: 0 0;
+        box-shadow: none;
+       img{
+            width: 100%;
+            box-shadow: none;
+       } 
+       h2{
+        text-align: left;
+        margin: 16px;
+        font-size: 3em;
+       }
+       p{
+        text-align: left;
+        margin: 16px;
+        font-size: 2em;
+        padding-bottom: 16px;
+        margin-bottom: 48px;
+       }
+       button{
+        font-size: 3em;
+        border-radius: 20px;
+        border:1px solid #000;
+        margin-top: 16px;
+        padding:16px 30px;
+       }
+    }
+    .mov5{
+        display: flex;
+        flex-direction: column;
+        width: 900px;
+        height: 410px;
+        
+        .flex4 {
+            padding: 16px;
+            flex-direction: column;
+            background-color: #4DCCBD;
+            box-shadow: none;
+        }
+    }
+    .movie6{
+        visibility: hidden;
+    }
+}
